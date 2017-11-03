@@ -27,6 +27,7 @@ def snowflake(t,x,y):
     t.pendown()
 
 def star(t, dist,x,y):
+    t.speed(0)
     for times in range(5):
         t.forward(dist)
         t.left(144)
